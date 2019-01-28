@@ -12,8 +12,8 @@ public class AppTest {
 	@Test
 	public void test1(){
 		WebDriver driver;
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") +"/chromedriver/geckodriver");
-		 driver= new FirefoxDriver();	
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/driver/chromedriver");
+		 driver= new ChromeDriver();	
 		driver.get("https://www.toolsqa.com/mobile-automation/appium/appium-tutorial/");
 	}
 	
